@@ -1,7 +1,7 @@
 import os
 logo = '\x1b[1;36m\______           _ |  _  \         (_)| | | |_____   ___ | | | / _ \ \ / / || |/ /  __/\ V /| ||___/ \___| \_/ |_|                  '
 os.system('clear')
-    print('logo')
+    print(logo)
     print('[A] Decode Zlib \n[B] Decode Base64')
     choice = input('[✓] input:')
     dec()
